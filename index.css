@@ -1,0 +1,72 @@
+.output {
+  border: 2px solid black;
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+.right {
+  border: 1px solid black;
+  width: 350px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  border: 1px solid black;
+  width: 350px;
+  margin-left: 20px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: 20px;
+}
+
+.payment {
+  font-size: 40px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  /* border-bottom: 1px solid black; */
+  margin: 20px;
+}
+
+.type {
+  margin-top: 12px;
+}
+
+.date-right {
+  margin-left: 260px;
+  width: 130px;
+  text-align: left;
+}
+
+.date-left {
+  margin-left: 260px;
+  width: 130px;
+  text-align: left;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+}
+
+.pay {
+  height: 30px;
+}
